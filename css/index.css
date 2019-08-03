@@ -213,11 +213,11 @@ p {
   color: #23293B;
   font-size: 1.5em;
   transition: 0.3s;
+  padding: 5px;
 }
 .nav-content nav ul li:hover {
   color: #F6F6F6;
   background: #23293B;
-  padding: 5px;
   border-radius: 5px;
 }
 footer {
