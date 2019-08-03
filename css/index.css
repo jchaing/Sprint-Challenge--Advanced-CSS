@@ -176,10 +176,12 @@ p {
 .nav-content {
   width: 100%;
   background: #F6F6F6;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
 @media (max-width: 500px) {
   .nav-content {
-    width: 96%;
     margin: 0 auto;
   }
 }
@@ -205,8 +207,6 @@ p {
   color: #23293B;
   font-size: 1.5em;
 }
-@media (max-width: 500px) {
-}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -216,6 +216,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  margin-top: 16rem;
 }
 .home .intro img {
   width: 100%;
