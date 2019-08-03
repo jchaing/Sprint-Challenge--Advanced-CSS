@@ -1,6 +1,11 @@
 // Navigation code here
 .nav-content {
+  width: 100%;
   background: @wild-sand;
+  @media @mobile {
+    width: 96%;
+    margin: 0 auto;
+  }
   nav {
     max-width: 800px;
     width: 100%;
@@ -19,7 +24,10 @@
       li {
         margin: auto 1.2em;
         color: @header-font-color;
-        font-size: 1.6em;
+        font-size: 1.5em;
+        @media @mobile {
+          // margin: auto 1rem;
+        }
       }
     }
   }
