@@ -55,6 +55,7 @@ Edit this document to include your answers after each question. Make sure to lea
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
       - My absolute favorite concept in preprocessing, especially in LESS is ```Nesting```. It's much easier to have a mental model of what the HTML will look like and reduces the CSS cognitive load.
+
       - If i had to choose a preprocessing concept that gives me the most trouble, that would be recursion. Briefly looking at it looks confusing, but I'm sure I can figure it out with enough practice.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
