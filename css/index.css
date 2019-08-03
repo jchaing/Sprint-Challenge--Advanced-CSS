@@ -194,6 +194,11 @@ p {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .nav-content nav {
+    padding: 0rem;
+  }
+}
 .nav-content nav h1 {
   font-size: 4rem;
 }
@@ -219,6 +224,11 @@ footer {
 }
 .home {
   margin-top: 16rem;
+}
+@media (max-width: 500px) {
+  .home {
+    margin-top: 12.5rem;
+  }
 }
 .home .intro img {
   width: 100%;
