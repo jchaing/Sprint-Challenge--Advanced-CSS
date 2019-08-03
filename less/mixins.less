@@ -1,1 +1,35 @@
 // Mixins Here
+
+.btn-mixin(@width, @font-color, @size, @pad, @align, @color-bk, @radius) {
+  width: @width;
+  color: @font-color;
+  font-size: @size;
+  padding: @pad;
+  text-align: @align;
+  background: @color-bk;
+  border-radius: @radius;
+}
+
+.transition-mixin {
+  transition: 0.4s;
+}
+
+.hover-mixin {
+  color: @btn-bg-color;
+  background: @porcelain;
+  border: 2px solid @btn-bg-color;
+}
+
+.home {
+  .walk {
+    .walk-text {
+      .btn {
+        .btn-mixin(30%, @porcelain, 1.8rem, 0.8rem, center, @btn-bg-color, 5px);
+        .transition-mixin();
+        &:hover {
+          .hover-mixin();
+        }
+      }
+    }
+  }
+}
