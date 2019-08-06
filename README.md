@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    - Adaptive Layout divides breakpoint design among different devices through the use of media queries where they are hard coded. It's a fast and easy way to get more content out quickly.
+
+    - Responsive Layout combines fixed, adaptive and fluid layouts into one seamless experience. Responsive units are used throughout the site and accomodates thousands of devices, but takes longer to build.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    - Mobile first means that you will design and code for the mobile device first and expand the layout or features as you gain more screen space towards a desktop resolution using the "min-width" property
+
+    - Desktop first means that you will design and code on the desktop first and expand the layout or features as you lose more screen space towards a mobile resolution using the "max-width" property.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    - By setting ```font-size``` to ```62.5%``` in the ```html```  tag it allows us to convert ```rem``` units much easier by the power of 10. So 62.5% * ```16px``` (default font size) = ```10px```, which means ```1rem``` equates to ```10px```.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+      - Preprocessing is a more robust syntax for CSS written a different language like JavaScript. That language then compiles into normal CSS. Preprocessing can makes writing CSS a lot easier, increase productivity and decrease errors. You want to learn preprocessing, trust me.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+      - My absolute favorite concept in preprocessing, especially in LESS is ```Nesting```. It's much easier to have a mental model of what the HTML will look like and reduces the CSS cognitive load.
+
+      - If i had to choose a preprocessing concept that gives me the most trouble, that would be recursion. Briefly looking at it looks confusing, but I'm sure I can figure it out with enough practice.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -56,13 +72,13 @@ Follow these steps to set up your project:
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 ### Preprocessor Set up
 
@@ -90,7 +106,7 @@ Your finished project must include all of the following requirements:
 7.home-page.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 ### Home Page - Desktop HTML & LESS
 
